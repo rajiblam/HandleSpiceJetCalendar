@@ -6,9 +6,9 @@ test('Handle Spice jet Calendar',async({page})=>
     //Click on calendar
     await page.click("(//div[@class='css-1dbjc4n']//*[name()='svg'])[7]")
     //Target Date, Month, Year
-    const actualDate="9";
-    const actualMonth="May";
-    const actualYear="2026";
+    const actualDate="15";
+    const actualMonth="August";
+    const actualYear="2025";
     const actualMonthYear=`${actualMonth} ${actualYear}`;
     console.log(actualMonthYear)
     while(true)
