@@ -10,8 +10,6 @@ test('Handle Calender',async({page})=>
     const monthYearExpected=await page.locator("//p[@class='monthYear___d72513']").textContent();
     console.log('Actual -',monthYearActual ,' Expected ',monthYearExpected)
 
-    //const year="2025";
-
     while(true)
     {
         const monthYearExpected=await page.locator("//p[@class='monthYear___d72513']").textContent();
